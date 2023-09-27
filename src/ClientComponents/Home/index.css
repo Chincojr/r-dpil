@@ -16,25 +16,26 @@
 }
 
 .carousel-image-1 {
-    background-image: url("../../assests/carousel1.jpg");
+    background-image: url("../../assests/mobileCarousel1.jpg");
     background-size:cover;
     background-repeat:no-repeat;
     background-attachment: fixed;
 }
 
 .carousel-image-2 {
-    background-image: url("../../assests/carousel2.jpg");
+    background-image: url("../../assests/mobileCarousel2.jpg");
     background-size:cover;
     background-repeat:no-repeat;
     background-attachment: fixed;
 }
 
 .carousel-image-3 {
-    background-image: url("../../assests/carousel3.jpg");
+    background-image: url("../../assests/mobileCarousel3.jpg");
     background-size:cover;
     background-repeat:no-repeat;
     background-attachment: fixed;
 }
+
 
 .carousel-element-container {
     height: 100vh;
@@ -555,6 +556,28 @@
 }
 
 @media (min-width: 768px){
+
+    .carousel-image-1 {
+        background-image: url("../../assests/carousel1.jpg");
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+    }
+    
+    .carousel-image-2 {
+        background-image: url("../../assests/carousel2.jpg");
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+    }
+    
+    .carousel-image-3 {
+        background-image: url("../../assests/carousel3.jpg");
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+    }
+
     .carousel-heading {
         font-size: 2.75rem;
     }
